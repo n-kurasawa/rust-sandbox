@@ -1,4 +1,24 @@
+// fn main() {
+//     let guess: u32 = "42".parse().expect("Not a number!");
+//     println!("{}", guess);
+// }
+
 fn main() {
-    let guess: u32 = "42".parse().expect("Not a number!");
-    println!("{}", guess);
+    let sum = 5 + 10;
+    println!("{}", sum);
+
+    let difference = 95.5 - 4.3;
+    println!("{}", difference);
+
+    let product = 4 * 30;
+    println!("{}", product);
+
+    let quotient = 56.7 / 32.2;
+    println!("{}", quotient);
+
+    let floored = 2 / 3;
+    println!("{}", floored);
+
+    let remainder = 43 % 5;
+    println!("{}", remainder);
 }
