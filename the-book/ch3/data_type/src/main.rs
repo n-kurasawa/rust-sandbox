@@ -42,4 +42,13 @@ fn main() {
 
     println!("{}", tup.0);
     println!("{}", tup.1);
+
+    let arr: [i32; 5] = [1, 2, 3, 4, 5];
+    let arr2 = [3; 5];
+    println!("{:?}", arr);
+    println!("{:?}",arr2);
+
+    println!("{}", arr[0]);
+    println!("{}", arr[1]);
+    println!("{}", arr[10]);
 }
