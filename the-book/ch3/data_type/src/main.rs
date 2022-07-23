@@ -21,4 +21,25 @@ fn main() {
 
     let remainder = 43 % 5;
     println!("{}", remainder);
+
+    let c = 'z';
+    println!("{}", c);
+
+    let z = 'ℤ';
+    println!("{}", z);
+
+    let heart_eyed_cat = '😻';
+    println!("{}", heart_eyed_cat);
+
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    println!("{:?}", tup);
+    println!("{:#?}", tup);
+
+    let (x, y, _) = tup;
+
+    println!("The value of x is: {}", x);
+    println!("The value of y is: {}", y);
+
+    println!("{}", tup.0);
+    println!("{}", tup.1);
 }
