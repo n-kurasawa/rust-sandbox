@@ -4,7 +4,11 @@ fn main() {
     another_function(5);
     print_labeled_measurement(5, 'h');
     expression();
+
     let x = five();
+    println!("The value of x is: {}", x);
+
+    let x = plus_one(5);
     println!("The value of x is: {}", x);
 }
 
@@ -27,4 +31,8 @@ fn expression() {
 
 fn five() -> i32 {
     5
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
 }
